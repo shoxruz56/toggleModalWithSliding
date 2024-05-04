@@ -1,0 +1,72 @@
+/* .app{
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  z-index: 2;
+
+  ul{
+    display: flex;
+    gap: 150px;
+
+    a{
+      text-decoration: none;
+    }
+  }
+
+  .modal{
+    border: 1px solid;
+    width: 100px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    z-index: 3;
+    left: 10px;
+  }
+  .modal2{
+    border: 1px solid;
+    width: 100px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    z-index: 3;
+    left: 200px;
+  }
+}
+/* .activeModal{
+  display: inline-flex;
+} */ 
+
+.app {
+  margin: 20px;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 50px;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.modal {
+  position: absolute;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.modal p {
+  margin: 0;
+}
+
+.modal button {
+  margin-top: 10px;
+}
+
